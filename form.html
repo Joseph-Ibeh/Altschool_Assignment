@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Africa Application Form</title>
+    <link rel="icon" type="image/jpeg" href="./Assets/iyxb07_copy_480x480.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="top"></div>
+    
+    <main>
+        <form action="/submit" method="post">
+            <div>
+                <img src="./Assets/download.jpeg" alt="Altschool Logo">
+                <p><a href="./Signin.html">Already an Altschooler? Sign in!</a></p>
+
+            </div>
+        
+            <p><strong>Signup</strong></p>
+            <p>Take the next steps to apply at Altschool Africa</p>
+            
+            <label for="First Name">First Name</label><br>
+            <input type="text" id="First Name" name="first name" placeholder="Enter first name" required><br><br>
+            
+            <label for="Last Name">Last Name</label><br>
+            <input type="text" id="Last Name" name="last name" placeholder="Enter last name" required><br><br>
+
+            <label for="Gender">Gender</label><br>
+            <select id="Gender" name="Gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="08060862883" required><br><br>
+
+            <label for="country">Country</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select country</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana">Ghana</option>
+                <option value="kenya">Kenya</option>
+                <option value="south_africa">South Africa</option>
+                <option value="united_states">United States</option>
+                <option value="united_kingdom">United Kingdom</option>
+            </select><br><br>
+
+            <label for="residence">State/City of Residence</label><br>
+            <input type="text" id="residence" name="residence" placeholder="Enter state/city" required><br><br>
+
+            <label for="referal">How did you hear about us?</label><br>
+            <select id="referal" name="referal" required>
+                <option value="">Select channel</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="twitter">Twitter</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+            <label for="confirmPassword">Confirm password</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter password again" required><br><br>
+
+            <p>By clicking continue, I agree to <a href="./terms.html">Terms of use</a> and acknowledge that I have read the <a href="./privacy.html">Privacy Policy.</a></p>
+
+            <button type="submit">Submit &#8594;</button>
+
+            <section>
+                <a href="./table.html">Altschool Africa Courses and Schools</a>
+            </section>
+        </form>
+    </main>   
+</body>
+</html>
